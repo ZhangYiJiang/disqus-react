@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { DiscussionEmbed, CommentCount, CommentEmbed } from 'disqus-react';
+import { DiscussionEmbed, CommentCount, CommentEmbed } from '../src/index';
 
 /* eslint-disable max-len */
 const ARTICLES = {

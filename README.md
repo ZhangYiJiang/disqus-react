@@ -1,6 +1,6 @@
-# disqus-react
+# disqus-react-unofficial
 
-disqus-react is a component for integrating the Disqus comments embed and comment count into a React.js single-page application. All components support live reloads when new prop data is received.
+disqus-react-unofficial is a component for integrating the Disqus comments embed and comment count into a React.js single-page application. All components support live reloads when new prop data is received.
 
 Installation
 ============
@@ -8,7 +8,7 @@ Installation
 Using NPM:
 
 ```bash
-$ npm install disqus-react
+$ npm install disqus-react-unofficial
 ```
 
 Basic Usage
@@ -18,7 +18,7 @@ On a typical article page with the comment count below the title, and discussion
 
 ```js
 import React from 'react';
-import Disqus from 'disqus-react';
+import Disqus from 'disqus-react-unofficial';
 // Alternatively, import specific members:
 // import { DiscussionEmbed, CommentCount } from 'disqus-react';
 

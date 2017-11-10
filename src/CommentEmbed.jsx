@@ -2,11 +2,11 @@ import React from 'react';
 
 const RADIX_BASE = 36;
 
-export class CommentEmbed extends React.Component {
+export default class CommentEmbed extends React.Component {
     getSrc() {
         const post = Number(this.props.commentId).toString(RADIX_BASE);
         const parentParam = this.props.showParentComment ? '1' : '0';
-        const mediaParam = this.props.showMedia ? '1' : '0'
+        const mediaParam = this.props.showMedia ? '1' : '0';
 
         return `https://embed.disqus.com/p/${post}?p=${parentParam}&m=${mediaParam}`;
     }

@@ -8,7 +8,7 @@ const queueResetCount = debounce(() => {
 
 const DOC = window.document;
 
-export class CommentCount extends React.Component {
+export default class CommentCount extends React.Component {
     componentDidMount() {
         this.loadInstance();
     }

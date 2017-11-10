@@ -3,7 +3,7 @@ import { insertScript, removeScript } from './utils';
 
 const DOC = window.document;
 
-export class DiscussionEmbed extends React.Component {
+export default class DiscussionEmbed extends React.Component {
     componentWillMount() {
         if (window.disqus_shortname && window.disqus_shortname !== this.props.shortname)
             this.cleanInstance();
